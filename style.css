@@ -1,0 +1,29 @@
+
+
+
+body {
+    background-color: #070200e3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(215, 227, 228);
+}
+#menu-horizontal ul{
+    list-style-type: none;
+    padding: 0;
+    background-color: #5f1010;
+    font-size: 20px;
+}
+#menu-horizontal ul li {
+    display: inline;
+}
+#menu-horizontal ul a {
+color: bisque;
+text-decoration: none;
+padding: 20px;
+display: inline-block;
+transition: background .4s;
+
+}
+#menu-horizontal ul a:hover {
+background-color: rgb(230, 113, 19);
+    
+    }
