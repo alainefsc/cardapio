@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:ital@1&family=Merriweather:ital@1&display=swap');
 
 *{
     margin: 0;
@@ -40,11 +39,33 @@ background-color: rgb(230, 113, 19);
  }
 
 
-#conteudo{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 20px;
-    }
-    
-#churras{
-margin: 10px;
-    }
+ .rodape {
+    background-color: #5f1010;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.rodape h4 {
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.redes-sociais img {
+    margin: 0 5px;
+}
+
+    section img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;}
+
+.section img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;}
+    /* style.css */
+.imagem-promo {
+    display: inline-block;
+    margin: 10px;
+}
