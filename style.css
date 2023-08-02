@@ -12,6 +12,7 @@ body {
     color: rgb(51, 4, 4);
     font-size: 100%;
     margin: auto;
+    
 }
 #menu-horizontal ul{
     list-style-type: none;
@@ -95,7 +96,8 @@ p {
 .promos{
     text-align: center;
     display: block;
-   }
+}
+  
    .carne{
     display: flex;
     justify-content: center;
@@ -111,6 +113,7 @@ p {
 .conteudo {
     text-align: center; 
     margin: auto;
+   
   }
   
   
@@ -118,7 +121,7 @@ p {
     display: inline-block; 
     margin-top: auto;
     padding: 10px
-    
+  
   }
   
   .imagem-promo img {
@@ -127,3 +130,27 @@ p {
     box-shadow: 0 2px 4px rgba(134, 4, 4, 0.1); 
   }
  
+  #botao input[type="radio"] {
+    display: none; 
+  }
+
+  #botao label {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  
+  #botao input[type="radio"]:checked + label {
+    background-color: orange;
+    color: rgb(212, 117, 9);
+    border-color: orange;
+  }
