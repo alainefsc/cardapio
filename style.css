@@ -7,40 +7,46 @@
 }
 body {
 
-    background: #f8f8f8;
+    background: #fdfbfb;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(51, 4, 4);
     font-size: 100%;
     margin: auto;
     
 }
-#menu-horizontal ul{
+#menu-horizontal {
+  display: flex;
+  justify-content: center;
+}
+#menu-horizontal ul{display: flex;
+  justify-content: center;
     list-style-type: none;
     padding: 0;
-    background-color: #5f1010;
+    background-color: #bd1414;
     font-size: 20px;  
 }
 
 #menu-horizontal ul li {
     display: inline;
+  
 }
 
 #menu-horizontal ul a {
 color: #fff;
 text-decoration: none;
-
 display: inline-block;
 transition: background .4s;
 padding: 20px;
+
 }
 
 #menu-horizontal ul a:hover {
-background-color: rgb(230, 113, 19);
+background-color: rgb(10, 10, 10);
  }
 
 
  .rodape {
-    background-color: #5f1010;
+    background-color: #bd1414;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -67,7 +73,7 @@ background-color: rgb(230, 113, 19);
      display: inline;
 }
 h1,h2,h3,h5{
-    background-color:rgb(230, 113, 19);
+    background-color:rgba(196, 14, 14, 0.829);
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
     color:#fff;
@@ -113,7 +119,6 @@ p {
 .conteudo {
     text-align: center; 
     margin: auto;
-   
   }
   
   
@@ -121,6 +126,7 @@ p {
     display: inline-block; 
     margin-top: auto;
     padding: 10px
+   
   
   }
   
@@ -179,21 +185,13 @@ p {
     clear: both;
   }
 
-  .botao-pedido {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #FFA500;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+  .logo-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50vh;
 }
 
-/* Estilo quando o mouse passa por cima do botão */
-.botao-pedido:hover {
-    background-color: #df7c0a;
+.logo-img {
+    border-radius: 50%;
 }
-    
-  
